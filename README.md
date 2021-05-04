@@ -1,1 +1,1 @@
-# web-hotel---SkyLight
+# SkyLight
