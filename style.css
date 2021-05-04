@@ -1,0 +1,244 @@
+/* @media screen and (max-width: 500px;) {
+    .caraousel-caption h1 {
+    font-size:10vw;
+
+}
+    .caraousel-caption h4 {
+    font-size: 8vw;
+}
+} */
+/* @media screen and (max-width:680px){
+
+	#maincontent{
+		width: auto;
+		float: none;
+	}
+	#sidebar{
+		width: auto;
+		float: none;
+	}
+} */
+/* Header */
+.slider_img {
+    width: 100%; }
+    .slider_img img {
+      min-width: 100%;
+      -o-object-fit: cover;
+      object-fit: cover;
+      -o-object-position: 50% 50%;
+      object-position: 50% 50%; }
+      @media (max-width: 500px) {
+        .slider_img img {
+          max-height: 730px; } }
+  
+  .carousel-caption {
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    top: 50%; 
+    font-style: normal;}
+    @media (min-width: 992px) {
+      .carousel-caption {
+        -webkit-transform: translateY(-57%);
+        -ms-transform: translateY(-57%);
+        transform: translateY(-57%);
+        top: 57%; }
+        .layout_two .carousel-caption {
+          -webkit-transform: translateY(-50%);
+          -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+          top: 50%; } }
+    @media (max-width: 500px) {
+      .carousel-caption {
+        top: 45%; } }
+  
+  .slider_title h1 {
+    text-align: center;
+    color: #fff;
+    margin-bottom: 40px;
+    font-weight: 700; }
+    @media (max-width: 576px) {
+      .slider_title h1 {
+        margin-bottom: 18px; } }
+  
+  .slider_title h4 {
+    color: #fff;
+    text-align: center;
+    line-height: 1.8; }
+  
+  .slider-btn {
+    text-align: center;
+    margin: 42px 0 0; }
+  
+  .carousel-indicators .active {
+      background-color: goldenrod;
+     }
+  
+  .fa-slider {
+    padding: 14px 14px;
+    border: 2px solid white;
+    font-size: 29px;
+    border-radius: 2px; }
+  
+  @media (max-width: 768px) {
+    .slider_title h1 {
+      font-size: 42px; }
+    .slider_title h4 {
+      font-size: 19px;
+      line-height: 1.5; }
+    .btn-default {
+      width: 50%;
+      margin-bottom: 10px;
+      font-size: 13px; } }
+  
+  @media (max-width: 480px) {
+    .slider_title {
+      margin: 0 0 80px; }
+      .slider_title h1 {
+        font-size: 32px; }
+      .slider_title h4 {
+        font-size: 18px;
+        line-height: 1.5; }
+    .btn-default {
+      width: 100%;
+      margin-bottom: 10px;
+      font-size: 18px; }
+    .fa-slider {
+      border: none;
+      padding: 0; } }
+/* Akhir Header */
+
+.card-body{
+    /* background-color: #DAA520; */
+}
+body {
+    background-image: url('img/b.jpg');
+    margin-top: 30px;
+}
+/* h1 , h4 {
+    -webkit-text-stroke: 0.03em goldenrod;
+     */
+/* } */
+footer {
+    background-color: goldenrod;
+}
+#row-card {
+    padding: 0.5em;
+
+}
+/* .container-fluid {
+    padding: 0.8em;
+} */
+.card-body {
+    background-color: white;
+}
+
+.copyright h3 {
+    font-size: 15px;
+    
+}
+.card h4 {
+    font-size: 1em;
+    padding: 0.5em;
+}
+/* nav {
+    opacity: 0.5;
+} */
+footer img {
+    width: 3em;
+    height: 3em;
+
+}
+footer .card {
+    background-color: transparent;
+    text-align: center;
+    margin: 3em;
+}
+footer .row .card {
+    padding: 0.5em;
+}
+#login:hover , #regis:hover , #submit:hover , #tombol:hover {
+    background-color: black;
+    color: goldenrod;
+}
+#login a:hover , #regis a:hover , #submit a:hover , #tombol a:hover{
+    color: goldenrod;
+}
+a #login , a #regis , a #submit , a #tombol{
+    text-decoration: none;
+    color: black;
+}
+#login , #regis , #submit , #tombol{
+    border-width: 5px;
+    position:relative;
+    box-sizing:border-box;
+    display:block;
+    width:80px;
+    border: 0px none;
+    padding: 0px 15px;
+    text-align:center;
+    font-family:Century;
+    font-weight:400;
+    text-shadow: 0px 0px 0px transparent;
+    border-radius: 7px;
+    background:goldenrod none repeat scroll 0% 0%;
+    height: 30px;
+    line-height: 29px;
+    font-size: 16px;
+    margin:auto;
+    margin-top:10px;
+}
+a:hover  {
+    color: ghostwhite;
+    text-decoration: none;
+}
+.forget {
+    color: goldenrod;
+}
+.daftar {
+    color: goldenrod;
+}
+form #logina , #registrasi{
+    
+    background-color:black;
+    width: 40%;
+    height: 100%;
+    padding: 10px;
+}
+#username ,#password , .regis input {
+    border-radius: 7px;
+}
+
+.text {
+    color: goldenrod;
+}
+.row .card:hover{
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.4);transform: scale(1.02);
+}
+.icon a {
+    color: black;
+}
+.icon a:hover {
+    color: goldenrod;
+}
+.dropdown-menu a:hover {
+    color: goldenrod;
+}
+.regis i , .pesan i {
+    color: goldenrod;
+}
+/* media */
+
+@media screen and (max-width: 600px) {
+    .container, .regis i,.regis input, a #regis {
+        width: 100%;
+        margin-top: 0;
+    }
+}
+#row-card .card img {
+    width: 16em;
+    height: 10em;
+}
+.pesan h6{
+    color: goldenrod;
+}

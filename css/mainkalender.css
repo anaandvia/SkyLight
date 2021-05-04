@@ -1,0 +1,46 @@
+/*!
+ * kalendae github page styles
+ * metal skin by Anas Nakawa - anas.nakawa@gmail.com - @anasnakawa
+ * kalendae by Jarvis Badgley (chipersoft@gmail.com)
+ * http://github.com/ChiperSoft/Kalendae
+ */
+
+body {
+	background: url('../images/grey.png');
+}
+
+#wrap {
+	width: 960px;
+	margin: 0 auto;
+	color: #666666;
+	font-family: Helvetica, Arial, Sans-serif;
+}
+
+.gh-fork img {
+	position: absolute; 
+	top: 0; 
+	right: 0; 
+	border: 0;
+}
+
+a {
+	color: #148AD3;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #5DB8F0;
+}
+
+hr {
+	border-top: 1px solid white;
+	border-bottom: 1px solid #CCCCCC;
+}
+
+.kalendae {
+	clear: both;
+}
+
+.kalendae span.closed {
+	background:red;
+}
